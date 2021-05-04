@@ -13,4 +13,79 @@ body {
   /* background-repeat: repeat; */
   background-size: cover;
 }
+#userCreationForm {
+  width: 320px;
+  height: 875px;
+  background: rgb(0, 0, 0);
+  color: #fff;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  border-radius: 3%;
+  padding: 70px 30px;
+}
+.avatar {
+  justify-content: center;
+  align-items: center;
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  position: absolute;
+  top: -120px;
+  /* left:calc(50% - 50px); */
+}
 
+.control-label {
+  margin: 0;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 22px;
+}
+
+#userCreationForm p {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+}
+
+#userCreationForm input {
+  width: 100%;
+  margin-bottom: 20px;
+}
+#userCreationForm input[type="text"],
+input[type="password"] {
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: #fff;
+  font-size: 16px;
+}
+
+#userCreationForminput[type="submit"] {
+  border: none;
+  outline: none;
+  height: 40px;
+  background: #fb2525;
+  font-size: 18px;
+  border-radius: 20px;
+}
+
+#userCreationForm input[type="submit"]:hover {
+  cursor: pointer;
+  background: #ffc107;
+  color: #000;
+}
+#userCreationForma {
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 20px;
+  color: darkgrey;
+}
+
+#userCreationForm a:hover {
+  color: #ea07ff;
+}
