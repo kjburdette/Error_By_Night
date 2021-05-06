@@ -20,10 +20,11 @@
                 <li><a href="#">Language: English</a></li>
             </ul>
         </nav>
-    <div id = "userCreation">
+        <div id = "userCreation">
             <!--First Name-->
+            <form action="/chirp" method="post">
             <div class="form-group">
-                <label class="col-md-4 control-label" id="firstName">First Name</label>  
+                <label class="col-md-4 control-label" id="firstName">First Name</label>
                 <div class="col-md-4 inputGroupContainer">
                 <div class="input-group">
                 <input  name="first_name" placeholder="First Name" class="form-control"  type="text">
@@ -32,34 +33,34 @@
             </div>
 
             <!--Last Name-->
-            
+
             <div class="form-group">
-                <label class="col-md-4 control-label">Last Name</label> 
+                <label class="col-md-4 control-label">Last Name</label>
                 <div class="col-md-4 inputGroupContainer">
                 <div class="input-group">
                 <input name="last_name" placeholder="Last Name" class="form-control"  type="text" id="lastName">
                 </div>
                 </div>
             </div>
-        
-                
+
+
             <!-- Username Input-->
-            
+
             <div class="form-group">
 
-                <label class="col-md-4 control-label">Username</label>  
+                <label class="col-md-4 control-label">Username</label>
                 <div class="col-md-4 inputGroupContainer">
                 <div class="input-group">
                 <input  name="user_name" placeholder="Username" class="form-control"  type="text"  id="userName">
                 </div>
                 </div>
             </div>
-            
+
             <!-- Password-->
-            
+
             <div class="form-group">
 
-                <label class="col-md-4 control-label">Password</label> 
+                <label class="col-md-4 control-label">Password</label>
                 <div class="col-md-4 inputGroupContainer">
                 <div class="input-group">
                 <input name="user_password" placeholder="Password" class="form-control"  type="password" id="password" >
@@ -69,17 +70,17 @@
 
 ​
             <div class="form-group">
-                <label class="col-md-4 control-label">Confirm Password</label> 
+                <label class="col-md-4 control-label">Confirm Password</label>
                 <div class="col-md-4 inputGroupContainer">
                 <div class="input-group">
                 <input name="confirm_password" placeholder="Confirm Password" class="form-control"  type="password">
                 </div>
                 </div>
             </div>
-            
+
             <!-- Email-->
             <div class="form-group">
-                <label class="col-md-4 control-label">E-Mail</label>  
+                <label class="col-md-4 control-label">E-Mail</label>
                 <div class="col-md-4 inputGroupContainer">
                     <div class="input-group">
                         <input name="email" placeholder="E-Mail Address" class="form-control"  type="text"  id="email">
@@ -90,14 +91,15 @@
                 <label class="col-md-4 control-label"></label>
             </div>
             <div>
-                <button type="submit" class="btn btn-secondary">Submit</button>
+                <button type="submit" id="button" class="btn btn-secondary">Submit</button>
             </div>
     </div>
+</form>
 </body>
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
+        <script src="../acconut.js"></script>
 </html>
