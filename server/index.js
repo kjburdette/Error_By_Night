@@ -5,6 +5,9 @@ const PORT = 3003;
 const es6Renderer = require("express-es6-template-engine");
 require("dotenv").config();
 
+app.use(express.static('../styles'));
+app.use(express.static('../client'));
+app.use(express.static('../images'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.engine("html", es6Renderer);
@@ -33,6 +36,16 @@ app.get('/chirp',  (req, res) => {
 
 app.get('/newsfeed',  (req, res) => {
   res.render("newsfeed")
+});
+
+app.post('/newsfeed', async (req, res) => {
+  console.log(req.body.newpost)
+  const { data, error } = await supabase
+    .from('Post')
+    .insert([
+      {url: req.body.newpost},
+    ])
+    // res.render('/newsfeed', {locals: {url: req.body.newpost} })
 });
 
 app.post('/login', async (req, res) => {
