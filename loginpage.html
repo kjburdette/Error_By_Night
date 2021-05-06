@@ -11,8 +11,8 @@
     <link rel="stylesheet" href="styles/login.css">
 </head>
 <body>
-     <!-- login page 2 -->
-     <section class="login-page">
+    <!-- login page -->
+    <section class="login-page">
         <!-- login page nav -->
         <nav class="login-page-nav">
             <ul>
@@ -27,8 +27,8 @@
             <div class="login-content">
                 <h2>Log in to Tweeter</h2>
                 <form class="login-form">
-                    <input type="text" placeholder="Phone, email, or username">
-                    <input type="password" placeholder="Password">
+                    <input type="text" placeholder="Phone, email, or username" class="login-user-info">
+                    <input type="password" placeholder="Password" class="login-password">
                     <div>
                         <button type="button" class="login-form-btn">Log In</button>
                         <input type="checkbox" class="login-form-checkbox" id="check">
@@ -44,5 +44,11 @@
         </div>
     </section>
     <!-- end of login page -->
+    <div class="login-modal">
+        <i class="fas fa-times"></i>
+        <p>The user name and password you entered did not match our records. Please double check and try again</p>
+    </div>
+    <!-- login modal -->
+    <!-- end of login modal -->
 </body>
 </html>
