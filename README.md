@@ -11,6 +11,17 @@ posts on the timeline.
 The site does feature a working dark mode but does have some more functionality that we would like to tackle. Some of that includes;
 being able to comment on posts, liking posts, and viewing your profile so you can see posts you've liked and your recent posts.
 
+# Contributers
+https://github.com/kjburdette
+
+https://github.com/jtroina8
+
+https://github.com/TechNestOwl
+
+https://github.com/Phillip215
+
+https://github.com/nischalp444
+
 
 # Links
 Medium Article - https://technestowl.medium.com/first-full-stack-project-a6d058225f1f
