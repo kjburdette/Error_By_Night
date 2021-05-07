@@ -397,6 +397,37 @@ body {
 }
 /* end of login modal */
 /* end of login page */
+<<<<<<< Updated upstream
+=======
+
+/* sign up page */
+#userCreation {
+  padding-top: 2rem;
+}
+
+.signup-page {
+  padding-top: 2rem;
+}
+
+.form-group {
+  font-size: 1.8rem;
+  padding: 0.3rem;
+  display: grid;
+  justify-content: center;
+}
+
+.form-group input {
+  font-size: 1.5rem;
+  padding: 0.2rem;
+}
+
+.submit-btn {
+  display: grid;
+  justify-content: center;
+}
+
+/* end of sign up page */
+>>>>>>> Stashed changes
 
 /* newsfeed page */
 .feeds-page {
