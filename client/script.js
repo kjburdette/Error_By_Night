@@ -24,49 +24,6 @@ const extra = document.querySelector('#extra-button');
 /**************************************************************************************************/
 /**************************************************************************************************/
 
-// // Main page
-// const goToLoginPage = () => {
-    //     mainPage.style.display = 'none';
-    //     loginPage.style.display = 'grid';
-    // };
-
-
-    // middleContent.addEventListener('click', (e) => {
-        //     if(e.target.classList[1] === 'main-btn') {
-            //         goToLoginPage();
-            //     }
-            // });
-
-            // btnTop.addEventListener('click', () => {
-                //     const inputUserInfo = document.querySelector('.user-info');
-                //     const inputPassword = document.querySelector('.password');
-
-                //     if(inputUserInfo.value !== "" && inputPassword.value !== "") {
-                    //         mainPage.style.display = 'none';
-                    //         newsFeedPage.style.display = 'block';
-                    //     } else {
-                        //         goToLoginPage();
-                        //         loginModal.style.display = 'block';
-                        //     }
-                        // });
-
-                        // // Login main
-                        // modalX.addEventListener('click', () => {
-                            //     loginModal.style.display = 'none';
-                            // })
-
-                            // loginFormBtn.addEventListener('click', () => {
-                                //     const loginUserInfo = document.querySelector('.login-user-info');
-                                //     const loginPassword = document.querySelector('.login-password');
-
-                                //     if(loginUserInfo.value !== "" && loginPassword.value !== "") {
-                                    //         loginPage.style.display = 'none';
-                                    //         newsFeedPage.style.display = 'block';
-//     } else {
-    //         loginModal.style.display = 'block';
-    //     }
-    // });
-
     // Newsfeed page
     // Post modal
     postBtn.addEventListener('click', () => {

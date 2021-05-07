@@ -381,6 +381,14 @@ body {
   font-size: 1.6rem;
   color: #868383;
 }
+
+.fake {
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
 /* end of login modal */
 /* end of login page */
 
@@ -548,7 +556,7 @@ body {
 
 .posts {
   grid-column: 2 / 3;
-  grid-row: 2 / -1;
+  grid-row: auto;
   background-color: #fff;
 }
 
