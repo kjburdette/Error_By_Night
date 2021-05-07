@@ -1,6 +1,6 @@
 # Tweeter - The Twitter Clone
 # Description
-Our team - Error by Night had the idea for our full stack project to try and recreate Twitter. We wanted to do this as a proof 
+Our team - Error by Night - had the idea for our full stack project to try and recreate Twitter. We wanted to do this as a proof 
 of concept and try and figure out how Twitter actually works. The app uses html, JS, node, and a database hosted on Supabase.io
 that is a dedicated PSQL database. 
 
