@@ -5,7 +5,7 @@ of concept and try and figure out how Twitter actually works. The app uses html,
 that is a dedicated PSQL database. 
 
 Users must create an account before being allowed to access the newsfeed page. Once an account is created it's stored into the 
-databse and they are redirected to the login page. After logging in you are sent to the newsfeed page where you can begin making 
+database and they are redirected to the login page. After logging in you are sent to the newsfeed page where you can begin making 
 posts on the timeline. 
 
 The site does feature a working dark mode but does have some more functionality that we would like to tackle. Some of that includes;
